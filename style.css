@@ -1,0 +1,52 @@
+
+    *{
+    margin: 0px;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+    body {
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    }
+    
+    #main{ 
+    margin-top: 150px;
+    background-color: rgb(153, 178, 179);
+    width: 350px;
+    padding: 20px;
+    }
+    
+    #para{ 
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 17.6px;
+    }
+   h1{ 
+    text-align: center;
+    margin: 10px 0 20px 0;
+    color: rgb(255, 255, 255);
+    }
+    
+    #input1, #input2, #input3 {
+    border: 0;
+    outline: 0;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    display: block;
+    width: 310px;
+    }
+    
+    #btn1, #btn2, #btn3 {
+    border: 0;
+    outline: 0;
+    background-color: rgb(47, 240, 240);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    display: block; 
+    width: 310px;
+    margin-bottom: 15px;
+    }
