@@ -2,21 +2,29 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale = 1 ^ prime prime />
 <link rel="stylesheet" href="style.css">
 <title>ELTP</title>
 </head>
 <body>
-<div id="main">
-<h1>Cuboid</h1>
-<input type="text" id="input1" placeholder="Enter length of cuboid (in cm)"/>
-<input type="text" id="input2" placeholder="Enter height of cuboid (in cm)" />
-<input type="text" id="input3" placeholder="Enter breadth of cuboid (in cm)" />
-<button id="btn1">Calculate Volume</button>
-<button id="btn2">Calculate T.S.A</button>
-<button id="btn3">Calculate C.S.A</button>
-<p id="para"></p>
-</div>
+<h1>Password Validator</h1>
+<hr>
+<h2>Enter Password</h2>
+<input type="password" id ="password" placeholder="Enter password...">
+<button onclick="validatePassword()">Validate Password</button>
+<p id="valid"></p>
+<p id="invalid"></p>
+<h4>Instructions</h4>
+<ul>
+<li>Password must contain at least one Uppercase letter.</li>
+<li>Password must contain at least one Lowercase letter.</li>
+<li>Password must contain at least one Digit.</li>
+<li>Password must contain at least one Symbol.</li>
+<li>Password minimum length should be 8.</li>
+<li>Password maximum length should be 50.</li>
+</ul>
+
+
 <script src="./script.js"></script>
 </body>
 </html>
